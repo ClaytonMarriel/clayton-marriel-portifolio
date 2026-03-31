@@ -1,0 +1,45 @@
+<section id="stack" class="stack-section">
+  <div class="stack-container">
+    <div class="stack-header">
+      <span class="stack-kicker">{{ 'stack.kicker' | t }}</span>
+      <h2>{{ 'stack.title' | t }}</h2>
+      <p>{{ 'stack.description' | t }}</p>
+    </div>
+
+    <div class="stack-grid">
+      @for (card of cards; track card.titleKey) {
+        <article class="stack-card">
+          <div class="stack-card-header">
+            <div class="stack-icon-wrap" [ngClass]="card.iconClass">
+              <span>{{ card.icon }}</span>
+            </div>
+            <div>
+              <h3>{{ card.titleKey | t }}</h3>
+              <p>{{ card.descriptionKey | t }}</p>
+            </div>
+          </div>
+
+          <div class="stack-tags">
+            @for (item of card.tags; track item) {
+              <span>{{ item }}</span>
+            }
+          </div>
+        </article>
+      }
+    </div>
+
+    <div class="stack-strip">
+      <div class="stack-strip-title">
+        <span></span>
+        <h3>{{ 'stack.stripTitle' | t }}</h3>
+        <span></span>
+      </div>
+
+      <div class="stack-logo-row">
+        @for (item of stripItems; track item) {
+          <div class="logo-badge">{{ item }}</div>
+        }
+      </div>
+    </div>
+  </div>
+</section>

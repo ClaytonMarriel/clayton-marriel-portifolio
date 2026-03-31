@@ -1,0 +1,61 @@
+<section id="projects" class="projects-section">
+  <div class="projects-container">
+    <div class="projects-header">
+      <span class="section-kicker">{{ 'projects.kicker' | t }}</span>
+      <h2>{{ 'projects.title' | t }}</h2>
+      <p>{{ 'projects.description' | t }}</p>
+    </div>
+
+    <div class="projects-grid">
+      @for (card of cards(); track card.client; let i = $index) {
+        <article class="project-card">
+          <div class="project-image" [ngClass]="gradients[i % gradients.length]">
+            <span>{{ card.badge }}</span>
+          </div>
+
+          <div class="project-content">
+            <h3>{{ card.client }}</h3>
+
+            <div class="project-meta">
+              <p><strong>{{ labels().company }}:</strong> {{ card.company }}</p>
+              <p><strong>{{ labels().client }}:</strong> {{ card.client }}</p>
+              <p><strong>{{ labels().role }}:</strong> {{ card.role }}</p>
+            </div>
+
+            <p class="project-description">{{ card.description }}</p>
+
+            <div class="meta-block">
+              <h4>{{ labels().stack }}</h4>
+              <div class="project-tags">
+                @for (item of card.stack; track item) {
+                  <span>{{ item }}</span>
+                }
+              </div>
+            </div>
+
+            <div class="meta-block">
+              <h4>{{ labels().highlights }}</h4>
+              <div class="project-tags highlights">
+                @for (item of card.highlights; track item) {
+                  <span>{{ item }}</span>
+                }
+              </div>
+            </div>
+          </div>
+        </article>
+      }
+    </div>
+
+    @if (hasMore()) {
+      <div class="projects-actions">
+        <button type="button" class="show-more-btn" (click)="showMore()">
+          {{ 'projects.showMore' | t }}
+        </button>
+      </div>
+    }
+
+    <div class="projects-footer-note">
+      <p>{{ practices() }}</p>
+    </div>
+  </div>
+</section>

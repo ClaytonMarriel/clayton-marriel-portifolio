@@ -1,0 +1,31 @@
+<header class="site-header">
+  <div class="site-header__container">
+    <a href="#home" class="brand">
+      <div class="brand__logo">CM</div>
+
+      <div class="brand__text">
+        <strong>Clayton Marriel</strong>
+        <span>{{ 'navbar.role' | t }}</span>
+      </div>
+    </a>
+
+    <nav class="desktop-nav" aria-label="Primary navigation">
+      @for (item of navItems; track item.href) {
+        <a [href]="item.href">{{ item.labelKey | t }}</a>
+      }
+    </nav>
+
+    <div class="header-actions">
+      <label class="language-selector" [attr.aria-label]="'navbar.languageLabel' | t">
+        <span>{{ 'navbar.languageLabel' | t }}</span>
+        <select [(ngModel)]="selectedLanguage">
+          @for (language of i18n.languages; track language.code) {
+            <option [ngValue]="language.code">{{ language.label }}</option>
+          }
+        </select>
+      </label>
+
+      <a href="#contact" class="header-cta">{{ 'navbar.cta' | t }}</a>
+    </div>
+  </div>
+</header>

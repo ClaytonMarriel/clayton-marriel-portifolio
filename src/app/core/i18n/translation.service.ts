@@ -17,7 +17,7 @@ const STORAGE_KEY = 'portfolio.language';
 const translations: Record<LanguageCode, Translations> = {
   'pt-BR': {
     navbar: {
-      role: 'Desenvolvedor Frontend',
+      role: 'Senior Frontend Engineer',
       about: 'Sobre',
       experience: 'Experiência',
       projects: 'Projetos',
@@ -28,30 +28,30 @@ const translations: Record<LanguageCode, Translations> = {
     },
     hero: {
       greeting: 'Olá, eu sou',
-      role: 'Desenvolvedor Frontend',
+      role: 'Senior Frontend Engineer',
       description:
-        'Construo aplicações web modernas, responsivas e escaláveis com Angular, TypeScript e forte foco em experiência do usuário, arquitetura limpa e performance.',
+        'Desenvolvo aplicações corporativas escaláveis com Angular, React e TypeScript, com foco em arquitetura, performance, integração com APIs e experiência do usuário.',
       cta: 'Ver meus projetos',
       imageAlt: 'Ilustração principal do portfólio',
-      bannerTitle: 'Sobre mim',
-      bannerDescription: 'Apaixonado por criar experiências digitais incríveis.',
-      bannerCta: 'Ler mais',
+      bannerTitle: 'Resumo profissional',
+      bannerDescription: '5+ anos criando produtos digitais escaláveis para clientes enterprise e projetos de alta complexidade.',
+      bannerCta: 'Ver trajetória',
       profileAlt: 'Foto de perfil',
     },
     about: {
       kicker: 'Sobre mim',
-      titleLine1: 'Desenvolvedor Frontend criando',
-      titleHighlight: 'experiências digitais modernas',
+      titleLine1: 'Engenheiro Frontend construindo',
+      titleHighlight: 'produtos digitais escaláveis',
       typing1: 'Olá, eu sou Clayton Marriel.',
-      typing2: 'Desenvolvedor Frontend com foco em Angular e TypeScript.',
+      typing2: 'Senior Frontend Engineer com foco em Angular, React e TypeScript.',
       typing3:
         'Experiência com aplicações corporativas, microfrontends e arquitetura escalável.',
       typing4:
         'Também evoluindo em C#, backend e mercado internacional.',
       description:
-        'Tenho experiência no desenvolvimento de interfaces modernas, integrações com APIs, componentização, arquitetura escalável e melhoria contínua da experiência do usuário. Meu objetivo é construir produtos sólidos, bem organizados e com alta qualidade visual e técnica.',
-      projectsCta: 'Ver projetos',
-      contactCta: 'Falar comigo',
+        'Atuo no desenvolvimento e evolução de aplicações corporativas com foco em Angular, TypeScript e React, incluindo componentização, integração com APIs, fluxos de negócio complexos, manutenção evolutiva, arquitetura escalável, testes unitários e padrões de projeto.',
+      projectsCta: 'Explorar projetos',
+      contactCta: 'Entrar em contato',
       cards: {
         experience: {
           label: 'Experiência',
@@ -86,10 +86,10 @@ const translations: Record<LanguageCode, Translations> = {
         'Projetos, entregas e contexto de atuação em desenvolvimento frontend, arquitetura e aplicações corporativas.',
       current: {
         period: 'Atual',
-        title: 'Desenvolvedor Frontend',
+        title: 'Senior Frontend Engineer',
         subtitle: 'Projetos corporativos / aplicações enterprise',
         description:
-          'Atuação no desenvolvimento e evolução de aplicaExperiência no desenvolvimento e evolução de aplicações corporativas com foco em Angular, TypeScript e React, incluindo componentização, integração com APIs, fluxos de negócio complexos, manutenção evolutiva, arquitetura escalável, testes unitários e aplicação de padrões de projeto.',
+          'Experiência no desenvolvimento e evolução de aplicações corporativas com foco em Angular, TypeScript e React, incluindo componentização, integração com APIs, fluxos de negócio complexos, manutenção evolutiva, arquitetura escalável, testes unitários e aplicação de padrões de projeto.',
       },
       architecture: {
         period: 'Projetos recentes',
@@ -171,16 +171,16 @@ const translations: Record<LanguageCode, Translations> = {
     },
     contact: {
       kicker: 'Contato',
-      title: 'Vamos conversar?',
+      title: 'Vamos nos conectar?',
       description:
         'Estou aberto a oportunidades, conexões profissionais e projetos que envolvam frontend, arquitetura e evolução de produto.',
       linkedin: 'linkedin.com/in/claytonmarriel',
       github: 'Ver repositórios e projetos',
       whatsapp: '+55 22 99103-5728',
-      cta: 'Enviar mensagem',
+      cta: 'Entrar em contato',
     },
     footer: {
-      role: 'Desenvolvedor Frontend • Angular • TypeScript',
+      role: 'Senior Frontend Engineer • Angular • React • TypeScript',
       about: 'Sobre',
       experience: 'Experiência',
       projects: 'Projetos',
@@ -192,7 +192,7 @@ const translations: Record<LanguageCode, Translations> = {
   },
   en: {
     navbar: {
-      role: 'Frontend Developer',
+      role: 'Senior Frontend Engineer',
       about: 'About',
       experience: 'Experience',
       projects: 'Projects',
@@ -203,30 +203,30 @@ const translations: Record<LanguageCode, Translations> = {
     },
     hero: {
       greeting: 'Hi, I’m',
-      role: 'Frontend Developer',
+      role: 'Senior Frontend Engineer',
       description:
-        'I build modern, responsive and scalable web applications with Angular, TypeScript and a strong focus on user experience, clean architecture and performance.',
+        'I build scalable enterprise applications with Angular, React and TypeScript, focusing on architecture, API integration, performance and user experience.',
       cta: 'View My Work',
       imageAlt: 'Main portfolio illustration',
-      bannerTitle: 'About Me',
-      bannerDescription: 'Passionate about creating amazing digital experiences.',
-      bannerCta: 'Read More',
+      bannerTitle: 'Professional Summary',
+      bannerDescription: '5+ years building scalable digital products for enterprise clients and high-complexity projects.',
+      bannerCta: 'View Journey',
       profileAlt: 'Profile photo',
     },
     about: {
       kicker: 'About Me',
-      titleLine1: 'Frontend Developer building',
-      titleHighlight: 'modern digital experiences',
+      titleLine1: 'Frontend Engineer building',
+      titleHighlight: 'scalable digital products',
       typing1: 'Hi, I’m Clayton Marriel.',
-      typing2: 'Frontend Developer focused on Angular and TypeScript.',
+      typing2: 'Senior Frontend Engineer focused on Angular, React and TypeScript.',
       typing3:
         'Experience with enterprise applications, microfrontends and scalable architecture.',
       typing4:
         'Also growing in C#, backend development and the international market.',
       description:
-        'I have experience building modern interfaces, API integrations, component-based systems, scalable architecture and continuous user experience improvement. My goal is to create solid, well-structured products with high visual and technical quality.',
-      projectsCta: 'View Projects',
-      contactCta: 'Contact Me',
+        'Experience in the development and evolution of enterprise applications focused on Angular, TypeScript and React, including component-based architecture, API integration, complex business flows, continuous maintenance, scalable architecture, unit testing and design patterns.',
+      projectsCta: 'Explore Projects',
+      contactCta: 'Get in Touch',
       cards: {
         experience: {
           label: 'Experience',
@@ -261,7 +261,7 @@ const translations: Record<LanguageCode, Translations> = {
         'Projects, deliveries and professional context in frontend development, architecture and enterprise applications.',
       current: {
         period: 'Current',
-        title: 'Frontend Developer',
+        title: 'Senior Frontend Engineer',
         subtitle: 'Corporate projects / enterprise applications',
         description:
           'Experience in the development and evolution of enterprise applications focused on Angular, TypeScript, and React, including component-based architecture, API integration, complex business flows, continuous maintenance, scalable architecture, unit testing, and the application of design patterns.',
@@ -346,16 +346,16 @@ const translations: Record<LanguageCode, Translations> = {
     },
     contact: {
       kicker: 'Contact',
-      title: 'Let’s talk?',
+      title: 'Let’s connect?',
       description:
         'I’m open to opportunities, professional connections and projects involving frontend, architecture and product evolution.',
       linkedin: 'linkedin.com/in/claytonmarriel',
       github: 'See repositories and projects',
       whatsapp: '+55 22 99103-5728',
-      cta: 'Send Message',
+      cta: 'Get in Touch',
     },
     footer: {
-      role: 'Frontend Developer • Angular • TypeScript',
+      role: 'Senior Frontend Engineer • Angular • React • TypeScript',
       about: 'About',
       experience: 'Experience',
       projects: 'Projects',
@@ -367,7 +367,7 @@ const translations: Record<LanguageCode, Translations> = {
   },
   es: {
     navbar: {
-      role: 'Desarrollador Frontend',
+      role: 'Senior Frontend Engineer',
       about: 'Sobre mí',
       experience: 'Experiencia',
       projects: 'Proyectos',
@@ -378,30 +378,30 @@ const translations: Record<LanguageCode, Translations> = {
     },
     hero: {
       greeting: 'Hola, soy',
-      role: 'Desarrollador Frontend',
+      role: 'Senior Frontend Engineer',
       description:
-        'Construyo aplicaciones web modernas, responsivas y escalables con Angular, TypeScript y un fuerte enfoque en experiencia de usuario, arquitectura limpia y rendimiento.',
+        'Desarrollo aplicaciones corporativas escalables con Angular, React y TypeScript, con foco en arquitectura, integración con APIs, rendimiento y experiencia de usuario.',
       cta: 'Ver mis proyectos',
       imageAlt: 'Ilustración principal del portafolio',
-      bannerTitle: 'Sobre mí',
-      bannerDescription: 'Apasionado por crear experiencias digitales increíbles.',
-      bannerCta: 'Leer más',
+      bannerTitle: 'Resumen profesional',
+      bannerDescription: 'Más de 5 años creando productos digitales escalables para clientes enterprise y proyectos de alta complejidad.',
+      bannerCta: 'Ver trayectoria',
       profileAlt: 'Foto de perfil',
     },
     about: {
       kicker: 'Sobre mí',
-      titleLine1: 'Desarrollador Frontend creando',
-      titleHighlight: 'experiencias digitales modernas',
+      titleLine1: 'Ingeniero Frontend construyendo',
+      titleHighlight: 'productos digitales escalables',
       typing1: 'Hola, soy Clayton Marriel.',
-      typing2: 'Desarrollador Frontend enfocado en Angular y TypeScript.',
+      typing2: 'Senior Frontend Engineer enfocado en Angular, React y TypeScript.',
       typing3:
         'Experiencia con aplicaciones corporativas, microfrontends y arquitectura escalable.',
       typing4:
         'También creciendo en C#, backend y mercado internacional.',
       description:
-        'Tengo experiencia en el desarrollo de interfaces modernas, integraciones con APIs, componentización, arquitectura escalable y mejora continua de la experiencia del usuario. Mi objetivo es construir productos sólidos, bien organizados y con alta calidad visual y técnica.',
-      projectsCta: 'Ver proyectos',
-      contactCta: 'Contactarme',
+        'Experiencia en el desarrollo y la evolución de aplicaciones corporativas con enfoque en Angular, TypeScript y React, incluyendo componentización, integración con APIs, flujos de negocio complejos, mantenimiento evolutivo, arquitectura escalable, pruebas unitarias y patrones de diseño.',
+      projectsCta: 'Explorar proyectos',
+      contactCta: 'Ponerse en contacto',
       cards: {
         experience: {
           label: 'Experiencia',
@@ -436,7 +436,7 @@ const translations: Record<LanguageCode, Translations> = {
         'Proyectos, entregas y contexto profesional en desarrollo frontend, arquitectura y aplicaciones corporativas.',
       current: {
         period: 'Actual',
-        title: 'Desarrollador Frontend',
+        title: 'Senior Frontend Engineer',
         subtitle: 'Proyectos corporativos / aplicaciones enterprise',
         description:
           'Experiencia en el desarrollo y la evolución de aplicaciones corporativas con enfoque en Angular, TypeScript y React, incluyendo componentización, integración con APIs, flujos de negocio complejos, mantenimiento evolutivo, arquitectura escalable, pruebas unitarias y aplicación de patrones de diseño.',
@@ -521,16 +521,16 @@ const translations: Record<LanguageCode, Translations> = {
     },
     contact: {
       kicker: 'Contacto',
-      title: '¿Hablamos?',
+      title: 'Conectemos',
       description:
         'Estoy abierto a oportunidades, conexiones profesionales y proyectos que involucren frontend, arquitectura y evolución de producto.',
       linkedin: 'linkedin.com/in/claytonmarriel',
       github: 'Ver repositorios y proyectos',
       whatsapp: '+55 22 99103-5728',
-      cta: 'Enviar mensaje',
+      cta: 'Ponerse en contacto',
     },
     footer: {
-      role: 'Desarrollador Frontend • Angular • TypeScript',
+      role: 'Senior Frontend Engineer • Angular • React • TypeScript',
       about: 'Sobre mí',
       experience: 'Experiencia',
       projects: 'Proyectos',

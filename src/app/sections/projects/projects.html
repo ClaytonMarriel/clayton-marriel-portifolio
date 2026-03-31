@@ -18,27 +18,28 @@
 
             <div class="project-meta">
               <p><strong>{{ labels().company }}:</strong> {{ card.company }}</p>
-              <p><strong>{{ labels().client }}:</strong> {{ card.client }}</p>
               <p><strong>{{ labels().role }}:</strong> {{ card.role }}</p>
             </div>
 
             <p class="project-description">{{ card.description }}</p>
 
-            <div class="meta-block">
-              <h4>{{ labels().stack }}</h4>
-              <div class="project-tags">
-                @for (item of card.stack; track item) {
-                  <span>{{ item }}</span>
-                }
+            <div class="meta-columns">
+              <div class="meta-block">
+                <h4>{{ labels().stack }}</h4>
+                <div class="project-tags">
+                  @for (item of card.stack.slice(0, 4); track item) {
+                    <span>{{ item }}</span>
+                  }
+                </div>
               </div>
-            </div>
 
-            <div class="meta-block">
-              <h4>{{ labels().highlights }}</h4>
-              <div class="project-tags highlights">
-                @for (item of card.highlights; track item) {
-                  <span>{{ item }}</span>
-                }
+              <div class="meta-block">
+                <h4>{{ labels().highlights }}</h4>
+                <div class="project-tags highlights">
+                  @for (item of card.highlights; track item) {
+                    <span>{{ item }}</span>
+                  }
+                </div>
               </div>
             </div>
           </div>
